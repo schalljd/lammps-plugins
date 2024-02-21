@@ -25,7 +25,7 @@ mass                    1 95.95  #Mo
 mass                    2 32.065 #S
 
 pair_style rebomos
-pair_coeff * * MoS.REBO.set5b M S
+pair_coeff * * MoS.REBO.set5b Mo S
 
 thermo_style custom step temp press pe ke cellgamma vol
 thermo 10
