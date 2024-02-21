@@ -41,7 +41,7 @@ class PairREBOMoS : public Pair {
   double cutljrebosq;    // cut for when to compute
                          // REBO neighs of ghost atoms
 
-  double **lj1, **lj2, **lj3, **lj4;    // pre-computed LJ coeffs for M,S types
+  double **lj1, **lj2, **lj3, **lj4;    // pre-computed LJ coeffs for Mo,S types
   double cut3rebo;                      // maximum distance for 3rd REBO neigh
 
   int maxlocal;             // size of numneigh, firstneigh arrays
